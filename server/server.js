@@ -76,7 +76,7 @@ app.post('/artist', (req, res) => {
 });
 
 app.get('/song', (req, res) => {
-  console.log(`In /songs GET`);
+  //console.log(`In /songs GET`);
   res.send(songList);
 });
 
